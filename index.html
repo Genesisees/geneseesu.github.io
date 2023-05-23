@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+p{
+  text-align: justify;
+}
+.about-section p {
+  text-align: center;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+h2 {
+ text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #87CEEB;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>We ensure you that your mental health will be healthy and safe..</p>
+  <p>SET SOME APPOINTMENTS NOW!</p>
+</div>
+
+<h2 style="text-align:center">MIND MECHANICS</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>OUR MISSION</h2>
+        <p>“There is no normal life that is free of pain. It’s the very wrestling with our problems that can be the impetus for our growth.” -Fred Rogers </p>
+        <p>Welcome to our mental health appointment website. Our mission is to provide accessible and compassionate mental health services to our community. We understand that seeking help for mental health concerns can be difficult, and we strive to create a safe and welcoming environment for our patients.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>OUR TEAM</h2>
+        <p>Our team of licensed and experienced mental health professionals are dedicated to providing personalized care to each patient. We believe in a holistic approach to mental health treatment that takes into account the unique needs and experiences of each individual. Our clinic is equipped with comfortable and private therapy rooms to ensure that our patients feel safe and at ease during their appointments. We offer a wide range of mental health services, including individual therapy, couple’s therapy, family therapy, and group therapy.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>CONFIDENTIALITY</h2>
+        <p>At our clinic, we prioritize patient confidentiality and respect. We follow strict privacy protocols and maintain a non-judgmental and accepting environment. We also offer flexible scheduling options and tele therapy services to accommodate our patients’ busy lives and unique needs. Thank you for considering our clinic for your mental health needs. We are committed to providing you with compassionate and effective care to support your mental health and wellbeing.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
